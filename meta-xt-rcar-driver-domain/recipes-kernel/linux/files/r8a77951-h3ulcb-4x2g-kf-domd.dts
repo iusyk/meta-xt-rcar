@@ -107,11 +107,11 @@
 
         /* CR7 is responislbe for graphics */
 	/delete-node/ cvbs-in;
-	/*/delete-node/ hdmi-in;
-	/delete-node/ hdmi0-out;*/
+	/delete-node/ hdmi-in;
+	/delete-node/ hdmi0-out;
 	/delete-node/ lvds-decoder;
 
-	/*/delete-node/ lvds;*/
+	/delete-node/ lvds;
 	/delete-node/ vga;
 	/delete-node/ vga-encoder;
 };
@@ -171,11 +171,11 @@
 /delete-node/ &vspd2;
 /delete-node/ &du;
 /delete-node/ &hdmi0;
-/delete-node/ &hdmi0_con;
+/*/delete-node/ &hdmi0_con;*/
 /delete-node/ &adv7513_in;
 /delete-node/ &hdmi1;
 /delete-node/ &lvds0;
-/delete-node/ &lvds;
+/*/delete-node/ &lvds;*/
 /delete-node/ &pciec0;
 /delete-node/ &pciec1;
 /delete-node/ &mpcie_3v3;
